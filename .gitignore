@@ -1,23 +1,25 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+
+---
+
+## 📄 .gitignore (adequado para Android/Kotlin)
+
+```gitignore
+# Arquivos e pastas de build
+/build
+*.iml
+
+# Configurações locais da IDE
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# Arquivo de propriedades locais
+local.properties
+
+# Cache e temporários
+.gradle/
+captures/
+
+# Arquivos temporários de SO
+.DS_Store
+Thumbs.db
